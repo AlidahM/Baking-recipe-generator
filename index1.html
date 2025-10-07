@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="sop/index1.css" />
+    <title>AI BAKING RECIPE GENERATOR</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1> 👩🏻‍🍳🍰AI Baking Recipes Generator</h1>
+
+        <main>
+            <div class="form-container">
+                <form id="recipe-generator-form">
+                    <input type="text" placeholder="Enter a the topic of the Baking recipe" autofocus required
+                        autocomplete="off" class="instructions" id="user-instructions" />
+                    <input type="submit" class="submit-button" />
+
+                </form>
+                <div class="hint">
+                    i.e: cupcake, muffins, or cookies
+                </div>
+            </div>
+            <div class="recipe hidden" id="recipe">
+
+            </div>
+
+        </main>
+        <footer>
+            This was coded by
+            <a href="https://github.com/AlidahM" target="_blank">Alidah Mathinye</a>
+            on <a href="https://github.com/AlidahM/Tswana-poem-generator.git">
+                GitHub</a>
+            and is hosted on <a href="https://68e1bb34b72025c66cb77205--silver-unicorn-64af21.netlify.app/">Netlify</a>
+        </footer>
+    </div>
+    <script src="sop/index1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+</body>
+
+</html>
